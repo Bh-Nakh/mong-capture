@@ -1,3 +1,5 @@
 bin/
 obj/
 *.tmp
+# 로컬 전용 (업로드하지 않음)
+CHANGELOG.md
