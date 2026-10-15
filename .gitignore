@@ -3,3 +3,5 @@ obj/
 *.tmp
 # 로컬 전용 (업로드하지 않음)
 CHANGELOG.md
+몽캡쳐.png
+몽탐색기.ico
