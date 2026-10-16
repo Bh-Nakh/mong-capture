@@ -93,6 +93,7 @@ namespace MongCapture
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 Settings.Load();
+                MongWebCheck.WebCheck.Start("mongcapture", "몽캡쳐", new int[] { 47171, 47172, 47173 }, Util.VersionNumber);   // 웹페이지 설치 확인용
                 Application.Run(new TrayApp());
             }
         }
